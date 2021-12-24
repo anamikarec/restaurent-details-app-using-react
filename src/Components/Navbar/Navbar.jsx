@@ -5,6 +5,7 @@ import UserForm from "../UserForm/UserForm";
 import axios from "axios";
 
 const NavBar = () => {
+  // const api = process.env.REACT_APP_API_KEY;
   return (
     <>
       <div
@@ -17,6 +18,7 @@ const NavBar = () => {
           backgroundRepeat: "no-repeat"
         }}
       >
+        {/* <p style={{color:"white"}}>hi: {api}</p> */}
         <div className={styles.navbar}>
           <Link to="/" className={styles.navbarLink}>
             Home
