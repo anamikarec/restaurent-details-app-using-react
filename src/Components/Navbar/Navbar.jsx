@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./navbar.module.css";
+import UserForm from "../UserForm/UserForm";
 
 const NavBar = () => {
   return (
@@ -40,6 +41,9 @@ const NavBar = () => {
         <p style={{ fontSize: "40px" }}>
           Discover the best food & drinks in Mughalsarai
         </p>
+      </div>
+      <div>
+        <UserForm />
       </div>
     </div>
   );
