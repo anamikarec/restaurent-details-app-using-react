@@ -185,6 +185,48 @@ const Home = () => {
           <p>Order Food Online</p>
         </div>
       </div>
+      <div style={{ backgroundColor: "whitesmoke" }}>
+        <div style={{ width: "90%", margin: "auto" }}>
+          <h2 style={{ color: "grey" }}>Cities We Deliver To</h2>
+          <div style={{ color: "grey", display: "flex", gap: "2rem" }}>
+            <div style={{ width: "18%" }}>
+              <p>Delhi NCR</p>
+              <p>Hyderabad</p>
+              <p>Shimla</p>
+              <p>Allahabad</p>
+              <p>Agra</p>
+            </div>
+            <div style={{ width: "18%" }}>
+              <p>Bhopal</p>
+              <p>Mysore</p>
+              <p>Udaipur</p>
+              <p>Pushkar</p>
+              <p>Thrissur</p>
+            </div>
+            <div style={{ width: "18%" }}>
+              <p>Goa</p>
+              <p>Ludhiana</p>
+              <p>Leh</p>
+              <p>Patna</p>
+              <p>Kota</p>
+            </div>
+            <div style={{ width: "18%" }}>
+              <p>Haridwar</p>
+              <p>Hyderabad</p>
+              <p>Shimla</p>
+              <p>Allahabad</p>
+              <p>Agra</p>
+            </div>
+            <div style={{ width: "18%" }}>
+              <p>Jodhpur</p>
+              <p>Hyderabad</p>
+              <p>Shimla</p>
+              <p>Allahabad</p>
+              <p>Agra</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
