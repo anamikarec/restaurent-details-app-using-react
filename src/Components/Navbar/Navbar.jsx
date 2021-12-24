@@ -6,7 +6,6 @@ import UserForm from "../UserForm/UserForm";
 const NavBar = () => {
   return (
     <div
-      className={styles.navPar}
       style={{
         backgroundImage:
           "url('https://media.istockphoto.com/photos/restaurant-gourmet-food-on-dark-background-picture-id902558446?k=20&m=902558446&s=170667a&w=0&h=-mr8LaG_pKDXhwA5n-jkYeqMsKwUtNdSFIIggfjicu0=')",
