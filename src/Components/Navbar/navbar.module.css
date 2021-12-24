@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+  justify-content: right;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  font-size: 16px;
+  gap: 3rem;
+}
+.navbarLink {
+  text-decoration: none;
+  color: white;
+  background-color: teal;
+  /* height: 30px; */
+  width: 120px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(238, 234, 234);
+}
