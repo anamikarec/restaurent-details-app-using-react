@@ -2,11 +2,12 @@
   display: flex;
   gap: 1rem;
   justify-content: right;
-  background-color: black;
+  /* background-color: black; */
   color: white;
   padding: 1rem;
   font-size: 16px;
   gap: 3rem;
+  border: 1px solid grey;
 }
 .navbarLink {
   text-decoration: none;
@@ -18,4 +19,20 @@
   padding: 10px;
   border-radius: 5px;
   border: 1px solid rgb(238, 234, 234);
+  text-align: center;
+}
+.navPar {
+  background-image: url("food.jpg");
+  height: 500px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.imgLogo {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  color: white;
 }
